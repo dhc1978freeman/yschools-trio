@@ -4,34 +4,46 @@
 }
 
 body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
     --tw-text-opacity: 1;
     color: rgb(0 72 84 / var(--tw-text-opacity));
-    margin: 0%;
+    margin: 0;
 }
+
 
 nav {
     display: flex;
     flex-direction: column;
-    height: 90px;
+    height: 100px;
     position: sticky;
+    top: 0px;
     margin-top: 0%;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+
 }
 
-ul {
+.fir {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: rgb(255, 255, 255);
-    height: 70px;
-    
+    background-color: white;
+    height: 100px;
+    margin-top: 0%;
 }
-li:hover { 
+
+nav .fir li:hover { 
     font-weight: 700;
 }
+
 li {
     width: 130px;
+    list-style: none;
 }
 
 .rec {
@@ -39,25 +51,21 @@ li {
     color: #004854;
     fill: none ;
     stroke-width: 1.5;
-    background: transparent;
-    
+    background-color: rgb(255, 255, 255);
 }
+
 .w-28 {
     outline: none;
-    background: transparent;
     border: 1px solid #004854;
     border-radius: 20px;
     width: 150px;
     height: 25px;
-
 }
+
 .int{
     width: none;
     border: none;
     transition: 0.8s;
-    background: transparent;
-    
-
 }
 
 .contact {
@@ -68,8 +76,73 @@ li {
     height: 35px;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: uppercase;  
+}
+
+main {
+    position: relative;
+    width: 100%;
+}
+
+.fond { 
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.maitre {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
     
+    position: sticky;
+    height: 300px;
+    width: 100%;
+    background-color: #004854;
+    bottom: 0px;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.box1 img{
+   display: flex;
+   align-items: flex-start;
+}
+
+
+.box2  {
+    font-size: 12px;
+    width: 150px;
+    height: auto;
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.bo02 {
+    position: relative;
+    right: 10px;
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+
+    flex-wrap: wrap;
+    
+    margin-top: 0px;
+    color: white;
+    font-size: 12px;
 }
 
 
