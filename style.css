@@ -11,8 +11,8 @@ body {
     flex-direction: column;
     --tw-text-opacity: 1;
     color: rgb(0 72 84 / var(--tw-text-opacity));
-   padding-bottom: 0%;
-   height: 100%;
+    padding-bottom: 0%;
+    height: 100%;
 }
 
 
@@ -49,13 +49,23 @@ li {
     list-style-type: none;
 }
 
+.w-full {
+    z-index: 0;
+}
+
 .rec {
-    width: 20px;
+    width: 17px;
     color: #004854;
     fill: none ;
     stroke-width: 1.5;
     background-color: rgb(255, 255, 255);
+    z-index: 1;
+    position: relative;
+    left: 27px;
+    top: 4px;
+    background: transparent;
 }
+
 
 .w-28 {
     outline: none;
@@ -86,16 +96,55 @@ main {
     min-height: 100vh; /* Assure que le container occupe toute la hauteur de la fenêtre */
     width: 100%;
     flex: 1; /* Prend tout l'espace disponible */
+    justify-content: center;
+    align-items: center;
 }
 
 .fond { 
     width: 100%;
     height: auto;
+   
+    z-index: 0;
 }
 
-footer {
-   
+#caroussel {
+    width: 780px;
+    overflow: hidden;
+    margin-left: 35%;
+    border: #333 1px solid;
+    border-radius: 20px;
+    box-shadow: 0 1px 7px;
+    bottom: 100px;
+    z-index: 1;
+    position: relative;
 }
+
+.images {
+    display: flex;
+    animation-duration: 30s;
+    animation-name: Pictures;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Pictures {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-790px);
+    }
+    50% {
+        transform: translateX(-1570px);
+    }
+    75% {
+        transform: translateX(-2350px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
 
 .maitre {
     display: flex;
