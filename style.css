@@ -48,6 +48,11 @@ nav .fir li:hover {
 li {
     width: 130px;
     list-style-type: none;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+    color: rgb( 0, 72 .84);
+    width: 135px;
 }
 
 .w-full {
