@@ -143,9 +143,10 @@ main {
     position: absolute;
     background: transparent;
     background-color: transparent;
-    top: 250px;
+    top: 150px;
     left: 1300px;
-    border-radius: 20%;
+    border-radius: 1 0%;
+    
 }
 
 .max {
@@ -198,7 +199,7 @@ main {
     box-shadow: 0 1px 7px;
     bottom: 100px;
     z-index: 1;
-    position: fixed;
+    position: relative;
 }
 
 .images {
@@ -265,7 +266,13 @@ h2:before, h2:after{
     gap: 20px;
 }
 
+.p1 :hover {
+transform: scale(1.2);
+}
 
+.p2 :hover {
+    transform: scale(1.2);
+    }
 
 .maitre {
     display: flex;
