@@ -34,7 +34,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     background-color: white;
     height: 100px;
     width: 100%;
@@ -148,8 +148,8 @@ main {
     position: absolute;
     background: transparent;
     background-color: transparent;
-    top: 150px;
-    left: 1300px;
+    top: 285px;
+    left: 1365px;
     border-radius: 1 0%;
     
 }
@@ -159,8 +159,8 @@ main {
     flex-direction: column;
     gap: 15px;
     position: absolute;
-    left: 340px;
-    top: 130px;
+    left: 540px;
+    top: 245px;
 
 }
 
@@ -272,11 +272,11 @@ h2:before, h2:after{
 }
 
 .p1 :hover {
-transform: scale(1.2);
+transform: scale(1.1);
 }
 
 .p2 :hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     }
 
 .maitre {
