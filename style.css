@@ -136,8 +136,6 @@ main {
     z-index: 0;
 }
 
-
-
 .picto1 {
     display: flex;
     justify-content: center;
@@ -147,7 +145,7 @@ main {
     background-color: transparent;
     top: 250px;
     left: 1300px;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .max {
