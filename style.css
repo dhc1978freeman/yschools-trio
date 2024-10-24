@@ -80,7 +80,6 @@ li {
     margin: 20px 0; /* Adjust margin as needed */
     font-weight: bold;
     text-transform: uppercase;
-
 }
 
 .header-with-lines::before,
@@ -135,6 +134,20 @@ main {
     width: 100%;
     height: auto;
     z-index: 0;
+}
+
+
+
+.picto1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: transparent;
+    background-color: transparent;
+    top: 250px;
+    left: 1300px;
+    border-radius: 50%;
 }
 
 .max {
