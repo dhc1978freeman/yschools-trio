@@ -231,10 +231,10 @@ main {
         transform: translateX(-790px);
     }
     50% {
-        transform: translateX(-1570px);
+        transform: translateX(-1580px);
     }
     75% {
-        transform: translateX(-2350px);
+        transform: translateX(-2370px);
     }
     100% {
         transform: translateX(0px);
