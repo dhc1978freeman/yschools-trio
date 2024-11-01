@@ -142,8 +142,8 @@ main {
     display: flex;
     flex-direction: column;
     width: 150px;
-    position: absolute;
-    top: 150px;
+    position: fixed;
+    top: 250px;
     right: 250px;
     gap: 20px;
 }
@@ -208,7 +208,7 @@ h1 {
 }
 
 #caroussel {
-    width: 780px;
+    width: 590px;
     overflow: hidden;
     margin-left: 35%;
     border: #333 1px solid;
@@ -231,13 +231,13 @@ h1 {
         transform: translateX(0);
     }
     25% {
-        transform: translateX(-790px);
+        transform: translateX(-590px);
     }
     50% {
-        transform: translateX(-1580px);
+        transform: translateX(-1180px);
     }
     75% {
-        transform: translateX(-2370px);
+        transform: translateX(-1770px);
     }
     100% {
         transform: translateX(0px);
